@@ -1,0 +1,8 @@
+# Assembler Output
+obj/temp/*.bin
+obj/temp/*.o
+obj/temp/*.lst
+
+# C Output
+util/ascii2atascii
+util/atascii2ascii
