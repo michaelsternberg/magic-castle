@@ -2,6 +2,9 @@
 obj/*.bin
 obj/*.o
 
+# PDF scans
+doc/
+
 # C Output
 util/ascii2atascii
 util/atascii2ascii
