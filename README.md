@@ -2,7 +2,7 @@
 This project is a re-digitization of *Magic Castle*, a previously unreleased game for the ATARI 800 8-bit home computer, designed and programmed by Bruce May in 1983. The source files are based on the scanned artifacts found at [archive.org](https://archive.org/details/magiccastle_atari). An interview with Bruce May regarding the development and fate of *Magic Castle* was recorded for [ANTIC - The ATARI 8-bit Podcast Interview Episode 375](https://ataripodcast.libsyn.com/antic-interview-375-bruce-may-unreleased-magic-castle-game). 
 
 ## How to Play
-The game manual is [here](https://archive.org/details/magiccastle_atari/Magic%20Castle%20Instruction%20Mannual).
+The instruction manual is [here](https://archive.org/details/magiccastle_atari/Magic%20Castle%20Instruction%20Mannual).
 Also see usage notes further below. 
 
 ## Project Goal
@@ -23,7 +23,7 @@ For example with [atari800](https://github.com/atari800/atari800)
 
     $ atari800 -xl -basic -fullscreen 'Magic Castle (1983)(May, Bruce)(US)[BASIC].atr'
 
-Assuming the emulator is configured correctly, the game should boot to a title screen. Refer to the author's [instruction manual](docs/Magic%20Castle%20Instruction%20Manual.pdf) for the goal and rules of the game.
+Assuming the emulator is configured correctly, the game should boot to a title screen. Refer to the author's [instruction manual](https://archive.org/details/magiccastle_atari/Magic%20Castle%20Instruction%20Mannual) for the goal and rules of the game.
 
 Note: The game reads the keys so that on a real ATARI there is no need to press the CTRL key when pressing the direction arrows Up, Down, Left, Right. However some ATARI 800 emulators do something similar for the arrow keys typically found on contemporary keyboards and unwittingly undo the game designer's original intent. So you may have to press CTRL + {Up, Down, Left, Right} to move the player when using an emulator or find an emulator setting to prevent this.
 
