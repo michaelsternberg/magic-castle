@@ -1,0 +1,15 @@
+ca65 V2.18 - N/A
+Main file   : src/patch_antic_off.asm
+Current file: src/patch_antic_off.asm
+
+000000r 1                       .setcpu "6502"
+000000r 1               
+000000r 1               SDMCTL          := $022F                        ; DMA enable
+000000r 1               
+000000r 1               start:
+000000r 1               ; Disable ANTIC until TITLE SCREEN is loaded (see patch_antic_on.asm)
+000000r 1  FF FF                .byte   $FF,$FF
+000002r 1  2F 02                .byte   <SDMCTL,>SDMCTL
+000004r 1  2F 02                .byte   <SDMCTL,>SDMCTL
+000006r 1  00                   .byte   $00
+000006r 1               

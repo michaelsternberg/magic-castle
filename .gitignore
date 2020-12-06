@@ -1,7 +1,6 @@
-# Assembler Output
-obj/temp/*.bin
-obj/temp/*.o
-obj/temp/*.lst
+# Assembler Output (Keeping .lst)
+obj/*.bin
+obj/*.o
 
 # C Output
 util/ascii2atascii
