@@ -64,7 +64,7 @@ $(OBJ)/binary_data.bin: $(SRC)/binary_data.txt
 	perl $(UTIL)/binary_data_to_raw.pl -i $(SRC)/binary_data.txt -o $(OBJ)/binary_data.bin
 
 clean:
-	rm -f $(OBJ)/*.lst $(OBJ)/*.o $(OBJ).bin $(UTIL)/ascii2atascii $(DIST)/MC.TXT $(DIST)/MC
+	rm -f $(OBJ)/*.o $(OBJ).bin $(UTIL)/ascii2atascii $(DIST)/MC.TXT $(DIST)/MC
 
 run:
 	atari800 -xl -basic $(ATR)
