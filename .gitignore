@@ -4,6 +4,8 @@ obj/*.o
 
 # PDF scans
 doc/
+doc/*.pdf
+doc/*.PDF
 
 # C Output
 util/ascii2atascii
