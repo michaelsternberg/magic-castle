@@ -2,8 +2,8 @@
 This project is a re-digitization of *Magic Castle*, a previously unreleased game for the ATARI 800 8-bit home computer, designed and programmed by Bruce May in 1983. The source files are based on the scanned artifacts found at [archive.org](https://archive.org/details/magiccastle_atari). An interview with Bruce May regarding the development and fate of *Magic Castle* was recorded for [ANTIC - The ATARI 8-bit Podcast Interview Episode 375](https://ataripodcast.libsyn.com/antic-interview-375-bruce-may-unreleased-magic-castle-game). 
 
 ## How to Play
-The instruction manual is [here](https://archive.org/details/magiccastle_atari/Magic%20Castle%20Instruction%20Mannual).
-Also see usage notes further below. 
+The instruction manual can be found [here](https://archive.org/details/magiccastle_atari/Magic%20Castle%20Instruction%20Mannual).
+Usage notes are found below.
 
 ## Project Goal
 The goal of this endeavor was to re-implement the game code and binary data exactly as found in the assets available. It is possible the scanned code listings were created prior to the final version of the game. I say this because the documentation and programming notes mention three levels of the Void, however the data dump and BASIC code include only one.
