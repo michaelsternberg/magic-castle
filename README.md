@@ -40,8 +40,8 @@ Note: The atari800 emulator's playback feature is used to tokenize the ASCII ver
 ## Dependencies
 
 - dir2atr (found in the [AtariSIO](https://github.com/HiassofT/AtariSIO) project)
-- atari800 (found at [atari800](https://github.com/atari800/atari800)
-- ca65 (included in [cc65](https://github.com/cc65/cc65)
+- atari800 (found at the [atari800](https://github.com/atari800/atari800) project)
+- ca65 (included in [cc65](https://github.com/cc65/cc65))
 - Perl (used to convert the text version of the author's binary data to a raw binary file)
 - C compiler to create a simple ASCII to ATASCII conversion tool
 
