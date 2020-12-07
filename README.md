@@ -1,5 +1,5 @@
 # magic-castle
-This project is a re-digitization of *Magic Castle*, a previously unreleased game for the ATARI 800 8-bit home computer, designed and programmed by Bruce May in 1983. The source files are based on the scanned artifacts found at [archive.org](https://archive.org/details/magiccastle_atari). An interview with Bruce May regarding the development and fate of *Magic Castle* was recorded for [ANTIC - The ATARI 8-bit Podcast Interview Episode 375](https://ataripodcast.libsyn.com/antic-interview-375-bruce-may-unreleased-magic-castle-game). 
+This project is a re-digitization and reverse engineering of *Magic Castle*, a previously unreleased game for the ATARI 800 8-bit home computer, designed and programmed by Bruce May in 1983. The source files are based on the scanned artifacts found at [archive.org](https://archive.org/details/magiccastle_atari). An interview with Bruce May regarding the development and fate of *Magic Castle* was recorded for [ANTIC - The ATARI 8-bit Podcast Interview Episode 375](https://ataripodcast.libsyn.com/antic-interview-375-bruce-may-unreleased-magic-castle-game). 
 
 ## How to Play
 The instruction manual can be found [here](https://archive.org/details/magiccastle_atari/Magic%20Castle%20Instruction%20Mannual).
@@ -48,3 +48,4 @@ Note: The atari800 emulator's playback feature is used to tokenize the ASCII ver
 ## Acknowledgements
 - Bruce May (for creating and sharing his work)
 - Kay Savetz (for interviewing Bruce and assisting in the preservation of Magic Castle and numerous other historical artifacts related to the ATARI home computers)
+- Rob McMullin (for creating [Omnivore](https://github.com/robmcmullen/omnivore) which helped with reverse-engineering tasks)
