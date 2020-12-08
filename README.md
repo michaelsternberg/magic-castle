@@ -10,6 +10,8 @@ The goal of this endeavor was to re-implement the game code and binary data exac
 
 With this goal in mind, a bug is defined as a mismatch between the scanned BASIC listing or binary data dump and the source code files.
 
+The lastest release of the ATR floppy disk image is [here](https://github.com/michaelsternberg/magic-castle/releases/).
+
 # Files
 - The releases folder contains an ATR disk image file that can be booted with an ATARI 800 emulator or a real ATARI 800 computer using an emulated or physical floppy disk. 
 - The src folder contains the BASIC listing and some reverse-engineering of the binary data. This includes assembly-language subroutines, ANTIC display lists to create custom graphics modes, title screen, map data, string tables for rooms, objects, monsters, etc, allocation tables for object placement, and probability tables used for object and monster placement.
